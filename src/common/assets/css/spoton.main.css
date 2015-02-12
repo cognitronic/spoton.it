@@ -16,6 +16,7 @@ width: 100%;
 
 .content{
     padding-bottom: 100px;
+    text-align: center;
 }
 
 .navbar-inverse .navbar-nav > li >a {
@@ -152,6 +153,7 @@ width: 100%;
 .event-grid-image-container{
     height: 225px;
     width: 260px;
+    margin: auto;
 }
 
 .event-grid-image{
