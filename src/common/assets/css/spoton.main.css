@@ -59,6 +59,13 @@ width: 100%;
     margin-top: -9px;
 }
 
+.align-header-buttons {
+    margin-left: 0px !important;
+    float: none !important;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    text-align: center;
+}
 .btn-group, .btn-group-vertical {
     position: relative;
     display: inline-block;
