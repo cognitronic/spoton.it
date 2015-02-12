@@ -163,3 +163,29 @@ width: 100%;
     color: #01b7f5;
     text-align: center;
 }
+
+.main-container.ng-enter{
+    -webkit-transition: 0.6s linear all;
+    -moz-transition: all 0.6s linear;
+    transition: 0.6s linear all;
+    transition-delay: 0.2s;
+    position: relative;
+    z-index: 100;
+    top: 100%;
+    opacity: 0;
+}
+
+.main-container.ng-enter.ng-enter-active {
+    top: 0;
+    opacity: 1;
+}
+
+.main-container.ng-leave{
+    -webkit-transition: 0.6s linear all;
+    -moz-transition: all 0.6s linear;
+    transition: 0.6s linear all;
+    transition-delay: 0.2s;
+    top: 0;
+    opacity: 1;
+
+}
