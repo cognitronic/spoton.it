@@ -1,0 +1,35 @@
+<section id="events">
+	<div class="content">
+		<div class="row-fluid">
+			<div class="page-title">
+				<h2>Event Scraping is Fun, How About You!</h2>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12  event-grid-container"  ng-repeat="event in gc.events | orderBy:'startDate':true">
+				<div class="col-md-12  event-grid-content" >
+					<div class="col-md-12 event-grid-image-outer-container" >
+						<div class="event-grid-image-container" >
+							<a href="{{event.link}}" target="_blank">
+								<img class="event-grid-image" ng-src="{{event.poster}}" alt="{{event.title}}"/>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-12" id="content" ram-fix-container>
+						<h6>
+							<a href="{{event.link}}" target="_blank" >
+								{{event.title}}
+							</a>
+						</h6>
+						<div>
+							<small>{{event.time}}</small>
+						</div>
+						<div class="event-grid-location">
+							{{event.location}}
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>

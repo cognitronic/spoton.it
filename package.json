@@ -1,0 +1,46 @@
+{
+  "name": "spoton.it",
+  "namelower": "spoton.it",
+  "version": "0.0.1",
+  "description": "SpotOn.it interview exercise",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "cognitronic@github.com:spoton.it.git"
+  },
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-contrib-concat": "0.3.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-contrib-jshint": "0.8.0",
+    "grunt-contrib-nodeunit": "0.3.0",
+    "grunt-contrib-uglify": "0.2.2",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-jsdoc": "0.5.4",
+    "grunt-exec": "0.4.5",
+    "grunt-karma": "0.8.3",
+    "karma": "0.12.16",
+    "karma-coverage": "~0.1",
+    "karma-jasmine": "0.1.5",
+    "karma-phantomjs-launcher": "0.1.4"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "~4.0.0",
+    "express-session": "~1.9.2",
+    "cookie-parser": "~1.0.1",
+    "method-override": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cors": "~2.5.3",
+    "jade": "~1.8.2",
+    "bower": "^1.3.12",
+    "cheerio": "~0.18.0",
+    "html-proxy": "0.0.8",
+    "http-proxy": "~1.8.1"
+  }
+}
